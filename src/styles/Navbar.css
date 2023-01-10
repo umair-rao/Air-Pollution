@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav-container {
+	display: flex;
+	align-items: center;
+	margin-top: 0.9rem;
+	width: 100%;
+}
+
+.back-icon {
+	margin-right: 3rem;
+	margin-left: 1.5rem;
+	font-size: 1.5rem;
+}
+
+.nav-title {
+	margin-right: 1rem;
+}
+
+.nav-links {
+	margin-left: 2%;
+}
+
+.nav-links ul {
+	text-decoration: none;
+}
+
+.nav-links li {
+	display: inline;
+	padding: 0.7rem;
+	font-size: 1.2rem;
+}
