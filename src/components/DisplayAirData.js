@@ -1,21 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FaArrowRight } from 'react-icons/fa';
+import '../styles/DisplayAirData.css';
 
 const DisplayAirData = ({ data }) => (
-  <div>
+  <div className="airData">
     <div className="container">
       <div className="next-icon">
         <FaArrowRight />
       </div>
-      <div className="card-title">
-        <h2>Lahore</h2>
-      </div>
-      <div className="aqi-container">
-        <p>
-          Air Quality Index:
-          {data.list[0].main.aqi}
-        </p>
+      <div className="details">
+        <div className="card-title">
+          <h2>Lahore</h2>
+        </div>
+        <div className="aqi-container">
+          <p>
+            Air Quality Index:
+            {data.list[0].main.aqi}
+          </p>
+        </div>
       </div>
     </div>
   </div>
