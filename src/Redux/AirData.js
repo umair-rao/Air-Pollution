@@ -42,17 +42,17 @@ export const fetchAirData = createAsyncThunk(
   },
 );
 
-const initialState = { allData: [] };
-const fetchAirDatanReducer = (state = initialState, action) => {
+const initialState = { airData: [] };
+const fetchAirDataReducer = (state = initialState, action) => {
   switch (action.type) {
     case AIR_POLLUTION_DATA:
       return {
         ...state,
-        allData: action.payload,
+        airData: action.payload,
       };
     default:
       return state;
   }
 };
 
-export default fetchAirDatanReducer;
+export default fetchAirDataReducer;
