@@ -1,0 +1,9 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.country-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}

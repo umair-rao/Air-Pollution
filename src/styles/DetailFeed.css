@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.details-container {
+  background-color: rgb(222, 73, 165);
+  width: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom: 2px solid black;
+}
+
+.title {
+  margin-left: 30%;
+}
+
+.value {
+  margin-left: 40%;
+}

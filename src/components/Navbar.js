@@ -7,16 +7,18 @@ import '../styles/Navbar.css';
 const Navbar = () => {
   return (
     <div className="nav-container">
-      <div className="back-icon">
-        <FaArrowLeft />
-      </div>
-      <div className="nav-title">
-        <h1>Air Poluttion</h1>
-      </div>
+      <a href="/" className="items-center">
+        <div className="back-icon">
+          <FaArrowLeft />
+        </div>
+        <div className="nav-title">
+          <h1>Air Poluttion</h1>
+        </div>
+      </a>
       <div className="nav-links">
         <ul>
           <li><Link to="/">Asia Capitals</Link></li>
-          <li>Africa Capitals</li>
+          <li><Link to="/Africa Capitals">Africa Capitals</Link></li>
           <li>North America Capitals</li>
           <li>South America Capitals</li>
           <li>Europe Capitals</li>

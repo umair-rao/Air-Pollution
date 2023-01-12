@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import airReducer from './AirData';
+import countriesReducer from './ShowCountires';
+import covidDetailReducer from './CovidDetail';
 
 const store = configureStore({
   reducer: {
-    airData: airReducer,
+    countriesData: countriesReducer,
+    covidDetail: covidDetailReducer,
   },
 });
 

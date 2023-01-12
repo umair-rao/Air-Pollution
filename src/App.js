@@ -3,17 +3,19 @@ import { useDispatch } from 'react-redux';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
-import Asia from './Pages/Asia';
-import { fetchAirData } from './Redux/AirData';
+import CountriesDetailsPage from './Pages/CountriesDetailsPage';
+import Details from './Pages/Details';
+import { fetchCountriesData } from './Redux/ShowCountires';
 
 function App() {
   const dispatch = useDispatch();
-  dispatch(fetchAirData()).unwrap();
+  dispatch(fetchCountriesData()).unwrap();
   return (
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Asia />} />
+        <Route path="/" element={<CountriesDetailsPage />} />
+        <Route path="/details/:countryName" element={<Details />} />
       </Routes>
     </div>
   );
