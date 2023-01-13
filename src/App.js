@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<CountriesDetailsPage />} />
-        <Route path="/details/:countryName" element={<Details />} />
+        <Route path="/:countryName" element={<Details />} />
       </Routes>
     </div>
   );
