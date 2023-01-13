@@ -24,5 +24,4 @@ const fetchCovidDetailReducer = (state = initialState, action) => {
       return state;
   }
 };
-
 export default fetchCovidDetailReducer;
