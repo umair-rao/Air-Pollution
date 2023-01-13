@@ -17,7 +17,7 @@ const Details = () => {
     <div className="covid-data-section">
       {covidData?.covidDetail.updated
         ? <DetailFeed detail={covidData.covidDetail} />
-        : <h1>Loading data.Please wait</h1>}
+        : <h1 className="items-center loading">Loading data.Please wait</h1>}
     </div>
   );
 };

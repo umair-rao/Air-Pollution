@@ -1,29 +1,44 @@
 import { FaArrowLeft } from 'react-icons/fa';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import '../styles/Navbar.css';
 
-// eslint-disable-next-line arrow-body-style
 const Navbar = () => {
+  const current = new Date();
+  const date = `${current.getDate()}-${current.getMonth() + 1}-${current.getFullYear()}`;
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="nav-container">
       <a href="/" className="items-center">
         <div className="back-icon">
           <FaArrowLeft />
         </div>
-        <div className="nav-title">
-          <h1>Air Poluttion</h1>
+        <div className="nav-heading">
+          <h1 className="nav-title">Worldwide COVID-19 Live Data Analysis</h1>
         </div>
       </a>
-      <div className="nav-links">
-        <ul>
-          <li><Link to="/">Asia Capitals</Link></li>
-          <li><Link to="/Africa Capitals">Africa Capitals</Link></li>
-          <li>North America Capitals</li>
-          <li>South America Capitals</li>
-          <li>Europe Capitals</li>
-          <li>Australia Capitals</li>
-        </ul>
+      <div className="time-date">
+        <div className="time">
+          <p>
+            Time:
+            {' '}
+            {time.toLocaleTimeString()}
+          </p>
+        </div>
+        <div className="date">
+          <p>
+            Date:
+            {' '}
+            {date}
+          </p>
+        </div>
       </div>
     </div>
   );

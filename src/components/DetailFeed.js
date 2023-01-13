@@ -4,13 +4,19 @@ import '../styles/DetailFeed.css';
 
 const DetailFeed = ({ detail }) => (
   <>
+    <div className="topcard">
+      <div className="country-image">
+        <img src={detail.countryInfo.flag} alt="Country Flag" />
+      </div>
+    </div>
     <div className="details-container">
-      <div className="item">
-        <div className="title">
-          <p>Country</p>
-        </div>
-        <div className="value">
-          <p>{detail.country}</p>
+      <div className="heading-div">
+        <div className="heading">
+          <p>
+            {detail.country}
+            :
+            COVID-19 Analysis
+          </p>
         </div>
       </div>
       <div className="item">

@@ -6,31 +6,29 @@
 .nav-container {
   display: flex;
   align-items: center;
-  margin-top: 0.9rem;
+  position: sticky;
+  top: 0.1px;
   width: 100%;
   margin-bottom: 20px;
+  background-color: #2c3531;
+  color: #ffeb3b;
+}
+
+.nav-container a {
+  margin-right: 3rem;
+  margin-left: 1.5rem;
+  color: #ffeb3b;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .back-icon {
   margin-right: 3rem;
   margin-left: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color: #ffeb3b;
 }
 
-.nav-title {
-  margin-right: 1rem;
-}
-
-.nav-links {
-  margin-left: 2%;
-}
-
-.nav-links ul {
-  text-decoration: none;
-}
-
-.nav-links li {
-  display: inline;
-  padding: 0.7rem;
-  font-size: 1.2rem;
+.time-date {
+  font-weight: bold;
 }

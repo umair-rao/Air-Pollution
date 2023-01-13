@@ -3,11 +3,32 @@
   padding: 0;
 }
 
+.topcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .details-container {
-  background-color: rgb(222, 73, 165);
-  width: 100%;
-  color: #fff;
+  background-color: #d79922;
+  color: #2c3531;
   font-size: 1.5rem;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 3px solid black;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+.heading-div {
+  border-bottom: 2px solid black;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1%;
 }
 
 .item {
@@ -15,12 +36,16 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   border-bottom: 2px solid black;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .title {
   margin-left: 30%;
+  margin-top: 3%;
 }
 
 .value {
   margin-left: 40%;
+  margin-top: 3%;
 }

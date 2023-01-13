@@ -4,19 +4,23 @@ import { FaArrowRight } from 'react-icons/fa';
 import '../styles/CountryTitle.css';
 
 const CountryTitle = ({ data }) => (
-  <div className="airData">
+  <div className="countryData">
     <div className="container">
       <a href={`/details/${data?.country}`} className="next-icon">
         <FaArrowRight />
       </a>
       <div className="details">
         <div className="card-title">
-          <h2>{data?.country}</h2>
+          <h3>{data?.country}</h3>
         </div>
         {
           data?.timeline && (
           <div className="vaccine">
-            <p>{data.timeline[Object.keys(data.timeline)[0]]}</p>
+            <p>
+              Vaccinated:
+              {' '}
+              {data.timeline[Object.keys(data.timeline)[0]]}
+            </p>
           </div>
           )
         }
@@ -27,7 +31,6 @@ const CountryTitle = ({ data }) => (
 
 CountryTitle.propTypes = {
   data: PropTypes.oneOfType([PropTypes.object]).isRequired,
-  // timeline: PropTypes.oneOfType([PropTypes.object]).isRequired,
 };
 
 export default CountryTitle;
