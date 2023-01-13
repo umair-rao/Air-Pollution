@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space-Travelers-Hub
+# 📖 COVID-19 Live Data Analysis
  <a name="about-project"></a>
 
 This is a React WebApp with the real live data from the COVID-19 API.  The application will allow users to check live data of Covid-19 like number of vaccinated people, cases, deaths, total recovered and number of tests conducted.
@@ -70,7 +70,7 @@ This is a React WebApp with the real live data from the COVID-19 API.  The appli
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Please use the following link to access the website:
-- [Live Demo Link](https://space-travelrs-hub.onrender.com)
+- [Live Demo Link](https://covid-19-live-data-analysis-development-update.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,8 +173,7 @@ You can deploy this project using:
 
 - Contributions, issues, and feature requests are welcome!
 
-- Feel free to check the [issues page](https://github.com/KIsmoilov/Space-Traveler-s-Hub
-/issues).
+- Feel free to check the [issues page](https://github.com/umair-rao/COVID-19-Live-Data-Analysis/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
