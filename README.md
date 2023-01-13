@@ -61,7 +61,7 @@ This is a React WebApp with the real live data from the COVID-19 API.  The appli
 
 ### Key Features <a name="key-features"></a>
 
-- **The users are able to make reservations on rockets and also join missions**
+- **The users can perform analysis as it is real time COVId data which is updating on daily basis**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,11 +159,9 @@ You can deploy this project using:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Feature <a name="future-features"></a>
 
-- Enhance the My Profile section by adding a placeholder message when the "My Missions" or "My Rockets" lists are empty (no missions joined or no rockets reserved).
-- Enhance the My Profile section by adding the "Cancel reservation" and "Leave Mission" buttons to the lists here. Clicking them should dispatch the actions you have already used in the main Rockets and Missions sections.
-- Enhance the My Profile section by adding the "Read more" button for each mission and rocket. Upon click, it should open a corresponding Wikipedia page in a new tab. NOTE - you need to get that extra Wikipedia URL from the API's payload.
+- Live COVID data is avaliable of all countires of world.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
