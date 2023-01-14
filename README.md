@@ -187,7 +187,8 @@ You can deploy this project using:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Microverse for providing the Design and guideline for this project.
+- Microverse for providing the guideline for this project.
+- User Interface Design by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
