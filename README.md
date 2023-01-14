@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space-Travelers-Hub
+# 📖 COVID-19 Live Data Analysis
  <a name="about-project"></a>
 
 This is a React WebApp with the real live data from the COVID-19 API.  The application will allow users to check live data of Covid-19 like number of vaccinated people, cases, deaths, total recovered and number of tests conducted.
@@ -61,7 +61,7 @@ This is a React WebApp with the real live data from the COVID-19 API.  The appli
 
 ### Key Features <a name="key-features"></a>
 
-- **The users are able to make reservations on rockets and also join missions**
+- **The users can perform analysis as it is real time COVId data which is updating on daily basis**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +70,7 @@ This is a React WebApp with the real live data from the COVID-19 API.  The appli
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Please use the following link to access the website:
-- [Live Demo Link](https://space-travelrs-hub.onrender.com)
+- [Live Demo Link](https://covid-19-live-data-analysis-development-update.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,11 +159,9 @@ You can deploy this project using:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Feature <a name="future-features"></a>
 
-- Enhance the My Profile section by adding a placeholder message when the "My Missions" or "My Rockets" lists are empty (no missions joined or no rockets reserved).
-- Enhance the My Profile section by adding the "Cancel reservation" and "Leave Mission" buttons to the lists here. Clicking them should dispatch the actions you have already used in the main Rockets and Missions sections.
-- Enhance the My Profile section by adding the "Read more" button for each mission and rocket. Upon click, it should open a corresponding Wikipedia page in a new tab. NOTE - you need to get that extra Wikipedia URL from the API's payload.
+- Live COVID data is avaliable of all countires of world.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,8 +171,7 @@ You can deploy this project using:
 
 - Contributions, issues, and feature requests are welcome!
 
-- Feel free to check the [issues page](https://github.com/KIsmoilov/Space-Traveler-s-Hub
-/issues).
+- Feel free to check the [issues page](https://github.com/umair-rao/COVID-19-Live-Data-Analysis/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,7 +187,8 @@ You can deploy this project using:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Microverse for providing the Design and guideline for this project.
+- Microverse for providing the guideline for this project.
+- User Interface Design by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
