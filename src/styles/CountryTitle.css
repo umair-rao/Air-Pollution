@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.countryData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.container {
+  width: 15rem;
+  height: 9rem;
+  background-color: #d79922;
+  color: black;
+  border-radius: 15px;
+}
+
+.next-icon {
+  margin-left: 85%;
+  padding-top: 3%;
+  font-size: 1.5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 5%;
+}
+
+.vaccine {
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+}
