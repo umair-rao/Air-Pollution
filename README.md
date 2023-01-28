@@ -61,7 +61,7 @@ This is a React WebApp with the real live data from the COVID-19 API.  The appli
 
 ### Key Features <a name="key-features"></a>
 
-- **The users can perform analysis as it is real time COVId data which is updating on daily basis**
+- **It is Vet Clinic database which has animals, vets, owners and vists data which can be used as required.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
