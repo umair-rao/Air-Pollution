@@ -61,7 +61,7 @@ This is a React WebApp with the real live data from the COVID-19 API.  The appli
 
 ### Key Features <a name="key-features"></a>
 
-- **It is Vet Clinic database which has animals, vets, owners and vists data which can be used as required.**
+- **The application will allow users to check live data of Covid-19 like number of vaccinated people, cases, deaths, total recovered and number of tests conducted.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
